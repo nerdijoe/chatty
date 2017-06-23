@@ -8,6 +8,7 @@
 	},
 	"dependencies": {
 		"apollo-client": "^1.4.2",
+		"graphql": "^0.10.3",
 		"graphql-tag": "^2.4.2",
 		"lodash": "^4.17.4",
 		"moment": "^2.18.1",

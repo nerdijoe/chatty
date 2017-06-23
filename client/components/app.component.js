@@ -11,10 +11,12 @@ import ApolloClient, { createNetworkInterface } from 'apollo-client';
 
 import { Routes, Scenes } from './routes.component';
 
-const networkInterface = createNetworkInterface({ uri: 'http://localhost:8080/graphql' });
+const networkInterface = createNetworkInterface({ uri: 'http://d391c9c4.ngrok.io/graphql' });
+
 const client = new ApolloClient({
   networkInterface,
 });
+
 const store = createStore(
   combineReducers({
     apollo: client.reducer(),
